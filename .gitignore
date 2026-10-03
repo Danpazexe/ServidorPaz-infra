@@ -1,0 +1,19 @@
+# --- Dados de jogadores e do console (nao versionar: repo publico) ---
+ops.json
+whitelist.json
+usercache.json
+banned-players.json
+banned-ips.json
+.console_history
+logs/
+world*/playerdata/
+world*/stats/
+world*/advancements/
+
+# --- AuthMe: so a config e versionada; banco de senhas e logs ficam no servidor ---
+plugins/AuthMe/*
+!plugins/AuthMe/config.yml
+
+# --- Binarios de terceiros baixados na instalacao (ver README) ---
+bore
+bore-*.tar.gz
